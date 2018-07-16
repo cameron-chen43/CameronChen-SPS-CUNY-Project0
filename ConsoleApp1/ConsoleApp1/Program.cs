@@ -3,14 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Palindrome2;
 
-namespace ConsoleApp1
+namespace MainFunction
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            //test
+            string st = "A nut for a jar of tuna";
+            Palindrome var = new Palindrome();
+            bool check = var.IsPalindrome(st);
+
+            Console.Read();
+
         }
+
     }
 }
